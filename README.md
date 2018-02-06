@@ -19,7 +19,7 @@ Being a golfing addict I obviously couldn't settle for a 63 line solution, and s
 | -------------------          | --------             |
 | Haskell (Ideomatic)          | 63 lines, 1310 bytes |
 | Python (Ideomatic)           | 30 lines, 619 bytes  |
-| Haskell (golfed)             | 208 bytes            |
-| Javascript (node, golfed)    | 281 bytes            |
-| Javascript (browser, golfed) | 203 bytes            |
-| Vim                          | 155 keypresses       |
+| Haskell (golfed)             | 199 bytes            |
+| Javascript (node, golfed)    | 278 bytes            |
+| Javascript (browser, golfed) | 200 bytes            |
+| Vim                          | 159 keypresses       |
