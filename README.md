@@ -6,11 +6,16 @@ This hides a message in the alpha channel of an image. Haskell was apparently a 
 
 ```haskell
 writeImg pthOut
-  =<< fromRGBA8
-    . zipWith (\c -> _a $= 255-c) (msg ++ repeat 0)
+  =<< zipWith (\c -> _a $= 255-c) (msg ++ repeat 0)
     . toRGBA8
   <$> readImg pthIn
 ```
 
 Being a golfing addict I obviously couldn't settle for a 63 line solution, and so my quest began to find the shortest language to do this in.
 
+## Scoreboard
+
+| Language            | Size     |
+| ------------------- | -------- |
+| Haskell (Ideomatic) | 63 lines |
+| Python (Ideomatic)  | 30 lines |
