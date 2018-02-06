@@ -13,7 +13,6 @@ maintainer: "Author name here"
 
 extra-source-files:
 - package.yaml
-- README.md
 - stack.yaml
 
 ghc-options: -Wall

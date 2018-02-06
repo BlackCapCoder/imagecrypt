@@ -54,7 +54,7 @@ readMessage img = runST $ do
 main :: IO ()
 main = do
   -- Hide message
-  Right img <- readImage "kitten.jpg"
+  Right img <- readImage "../kitten.jpg"
   let img' = writeMessage (convertRGBA8 img) message'
   writePng "kitten.png" img'
 
