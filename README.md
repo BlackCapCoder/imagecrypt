@@ -1,4 +1,4 @@
-# imagecrypt
+# Imagecrypt
 
 We had an exercise after a lecture to use this nasty GUI application to hide a textual message in an image. Clearly that's not much of an exercise, so I decided to implement it myself.
 
@@ -13,3 +13,4 @@ writeImg pthOut
 ```
 
 Being a golfing addict I obviously couldn't settle for a 63 line solution, and so my quest began to find the shortest language to do this in.
+
