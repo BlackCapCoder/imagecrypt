@@ -15,11 +15,11 @@ Being a golfing addict I obviously couldn't settle for a 63 line solution, and s
 
 ## Scoreboard
 
-| Language                     | Size           |
-| -------------------          | --------       |
-| Haskell (Ideomatic)          | 63 lines       |
-| Python (Ideomatic)           | 30 lines       |
-| Haskell (golfed)             | 208 bytes      |
-| Javascript (node, golfed)    | 281 bytes      |
-| Javascript (browser, golfed) | 203 bytes      |
-| Vim                          | 155 keypresses |
+| Language                     | Size                 |
+| -------------------          | --------             |
+| Haskell (Ideomatic)          | 63 lines, 1310 bytes |
+| Python (Ideomatic)           | 30 lines, 619 bytes  |
+| Haskell (golfed)             | 208 bytes            |
+| Javascript (node, golfed)    | 281 bytes            |
+| Javascript (browser, golfed) | 203 bytes            |
+| Vim                          | 155 keypresses       |
