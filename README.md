@@ -19,3 +19,4 @@ Being a golfing addict I obviously couldn't settle for a 63 line solution, and s
 | ------------------- | -------- |
 | Haskell (Ideomatic) | 63 lines |
 | Python (Ideomatic)  | 30 lines |
+| Haskell (golfed)    | 220 bytes |
