@@ -1,6 +1,7 @@
 # imagecrypt
 
 We had an exercise after a lecture to use this nasty GUI application to hide a textual message in an image. Clearly that's not much of an exercise, so I decided to implement it myself.
+
 This hides a message in the alpha channel of an image. Haskell was apparently a bad choice of language for this, or rather, JuicyPixels is an extremely verbose library, because conceptually the code could just be:
 
 ```haskell
