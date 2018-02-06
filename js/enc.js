@@ -1,2 +1,2 @@
 require('fs').readFileSync(0).toString().split`
-`.map((l,i)=>console.log(l+' '+(i>21?255:255+96-'loremipsumdolorsitamet'.split``[i].charCodeAt(0))))
+`.map((l,i)=>console.log(l+' '+(255+(i>21?0:96-'loremipsumdolorsitamet'.split``[i].charCodeAt(0)))))
