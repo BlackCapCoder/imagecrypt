@@ -1,6 +1,18 @@
 #!/bin/bash
 
-echo "$(cat README.md | grep -Pzo '(?s).*## Scoreboard.*- \|.[^\n]*.[^\n]*.')"
+echo "$(cat README.md | grep -Pzo '(?s).*## Scoreboard.*- \|.')"
+
+
+echo -n $'| Haskell (Ideomatic)          | '
+echo -n "$(echo "$(cat hs/executable/Main.hs | wc -l)" | bc) lines, "
+echo -n "$(echo "$(cat hs/executable/Main.hs | wc -c)-1" | bc)"
+echo ' bytes |'
+
+echo -n $'| Python (Ideomatic)           | '
+echo -n "$(echo "$(cat py/main.py | wc -l)" | bc) lines, "
+echo -n "$(echo "$(cat py/main.py | wc -c)-1" | bc)"
+echo ' bytes  |'
+
 
 echo -n $'| Haskell (golfed)             | '
 echo -n "$(echo "$(cat hs2/*.hs | wc -c)-$(find hs2/*.hs | wc -l)" | bc)"
@@ -15,5 +27,5 @@ echo -n "$(echo "$(cat js2/*.js | wc -c)-$(find js2/*.js | wc -l)" | bc)"
 echo ' bytes            |'
 
 echo -n $'| Vim                          | '
-echo -n "$(echo "$(cat vim/enc vim/dec | sed 's/<[^>]*>/a/g' | wc -c)-$(find vim/* | wc -l)" | bc)"
+echo -n "$(echo "$(cat vim/*.vim | sed 's/<[^>]*>/a/g' | wc -c)-$(find vim/*.vim | wc -l)" | bc)"
 echo ' keypresses       |'

@@ -14,12 +14,11 @@ writeImg pthOut
 Being a golfing addict I obviously couldn't settle for a 63 line solution, and so my quest began to find the shortest language to do this in.
 
 ## Scoreboard
-
 | Language                     | Size                 |
 | ---------------------------- | -------------------- |
 | Haskell (Ideomatic)          | 63 lines, 1310 bytes |
-| Python (Ideomatic)           | 30 lines, 619 bytes  |
+| Python (Ideomatic)           | 30 lines, 618 bytes  |
 | Haskell (golfed)             | 199 bytes            |
 | Javascript (node, golfed)    | 278 bytes            |
 | Javascript (browser, golfed) | 200 bytes            |
-| Vim                          | 158 keypresses       |
+| Vim                          | 159 keypresses       |
