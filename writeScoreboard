@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./updateScoreboard > tmp
+cat tmp > README.md
+rm tmp
