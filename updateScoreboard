@@ -1,7 +1,6 @@
 #!/bin/bash
 
-cat README.md | grep -Pzo '(?s).*## Scoreboard.*- \|.[^\n]*.[^\n]*'
-echo
+echo "$(cat README.md | grep -Pzo '(?s).*## Scoreboard.*- \|.[^\n]*.[^\n]*.')"
 
 echo -n $'| Haskell (golfed)             | '
 echo -n "$(echo "$(cat hs2/*.hs | wc -c)-$(find hs2/*.hs | wc -l)" | bc)"
